@@ -41,3 +41,9 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# CI version files (tools/version.sh)
+VERSION_APP
+VERSION_CHART
+VERSION_DOCKER
+DOCKER_IMAGES

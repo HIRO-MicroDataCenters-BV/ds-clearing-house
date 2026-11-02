@@ -18,7 +18,6 @@ from fastapi import Depends, HTTPException, Query, status
 from app.core.exceptions import IllegalStatusTransition
 from app.core.repository import Repositories
 from app.core.usecases import ContractUsecases
-from app.rest_api.depends import get_repository
 from app.rest_api.api_models import (
     AuditEventList,
     AuditEventRecord,
@@ -27,6 +26,7 @@ from app.rest_api.api_models import (
     RegisterContractRequest,
     UpdateStatusRequest,
 )
+from app.rest_api.depends import get_repository
 from app.rest_api.pagination import page_count
 from app.rest_api.tags import CONTRACTS, LEDGER
 

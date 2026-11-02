@@ -5,9 +5,8 @@ See repositories.py for what this is required to do, and for the three rules
 it follows.
 """
 
-from typing import List, Optional
-
 import logging
+from typing import List, Optional
 
 from sqlalchemy import func, select, text
 from sqlalchemy.exc import SQLAlchemyError
