@@ -10,10 +10,9 @@ SQL) and owns the decisions neither should make:
 No SQL, no HTTP. Raises plain exceptions; the route decides the status code.
 """
 
-from typing import Callable, List, NamedTuple, Optional
-
 import logging
 import time
+from typing import Callable, List, NamedTuple, Optional
 
 from app.core.exceptions import IllegalStatusTransition
 from app.core.models import STATUS_ACTIVE, AuditEvent, Contract

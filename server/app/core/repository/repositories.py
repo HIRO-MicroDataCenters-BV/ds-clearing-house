@@ -23,10 +23,9 @@ event. A contract that exists with no record of being created would be worse
 than no contract at all.
 """
 
-from typing import List, Optional
-
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
+from typing import List, Optional
 
 from app.core.models import AuditEvent, Contract
 from app.database import Database
