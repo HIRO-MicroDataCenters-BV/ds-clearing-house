@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  ds-clearing-house:
+  - apiVersion: v2
+    appVersion: 0.1.0-dev.0.ci-build-and-pub.add38bd9
+    created: "2026-11-02T12:18:29.228718322Z"
+    description: NextGen Data Space — Clearing House (contract registry and audit
+      ledger)
+    digest: 173b836551fc1543febc070c1a2c7dce83f9560668aead9cf07b0cdd0ea408e5
+    name: ds-clearing-house
+    type: application
+    urls:
+    - https://HIRO-MicroDataCenters-BV.github.io/ds-clearing-house/helm-charts/ds-clearing-house-0.1.0-dev.0.ci-build-and-pub.add38bd9.tgz
+    version: 0.1.0-dev.0.ci-build-and-pub.add38bd9
+generated: "2026-11-02T12:18:29.228160456Z"
